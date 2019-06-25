@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/lightgray"
+    tools:context="com.example.administrator.maintenanceapp.Activity.PrivacyActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_35"
+        android:background="@color/white">
+
+        <ImageView
+            android:id="@+id/msg_back3"
+            android:layout_width="@dimen/dp_30"
+            android:layout_height="@dimen/dp_30"
+            android:layout_alignParentLeft="true"
+            android:src="@mipmap/back1"
+            android:layout_marginTop="@dimen/dp_5"
+            android:layout_marginLeft="@dimen/dp_5"
+            android:gravity="center" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:padding="@dimen/dp_5"
+            android:text="隐私"
+            android:textColor="@color/black"
+            android:textSize="@dimen/sp_18" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_30"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="@dimen/dp_20"
+        android:text="通讯录"
+        android:textSize="@dimen/sp_14"
+        android:textColor="@color/black"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_35"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:background="@color/white">
+            <TextView
+                android:layout_width="@dimen/dp_0"
+                android:layout_weight="8"
+                android:layout_height="wrap_content"
+                android:text="加我为朋友时需要验证"
+                android:textColor="@color/black"
+                android:textSize="@dimen/dp_12"
+                android:layout_marginLeft="@dimen/dp_20"/>
+
+            <com.example.administrator.maintenanceapp.View.WiperSwitch
+                android:id="@+id/wiperSwitch1"
+                android:layout_width="@dimen/dp_40"
+                android:layout_marginTop="@dimen/dp_5"
+                android:layout_height="@dimen/dp_20"
+                />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_10"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_35"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:background="@color/white">
+            <TextView
+                android:layout_width="@dimen/dp_0"
+                android:layout_weight="8"
+                android:layout_height="wrap_content"
+                android:text="向我推荐QQ好友"
+                android:textColor="@color/black"
+                android:textSize="@dimen/dp_12"
+                android:layout_marginLeft="@dimen/dp_20"/>
+
+            <com.example.administrator.maintenanceapp.View.WiperSwitch
+                android:id="@+id/wiperSwitch2"
+                android:layout_width="@dimen/dp_40"
+                android:layout_marginTop="@dimen/dp_5"
+                android:layout_height="@dimen/dp_20"
+                />
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_0_5"
+            android:layout_marginLeft="@dimen/dp_20"
+            android:background="@color/gray"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_35"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:background="@color/white">
+            <TextView
+                android:layout_width="@dimen/dp_0"
+                android:layout_weight="8"
+                android:layout_height="wrap_content"
+                android:text="通过QQ号搜索到我"
+                android:textColor="@color/black"
+                android:textSize="@dimen/dp_12"
+                android:layout_marginLeft="@dimen/dp_20"/>
+
+            <com.example.administrator.maintenanceapp.View.WiperSwitch
+                android:id="@+id/wiperSwitch3"
+                android:layout_width="@dimen/dp_40"
+                android:layout_marginTop="@dimen/dp_5"
+                android:layout_height="@dimen/dp_20"
+                />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_10"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_35"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:background="@color/white">
+            <TextView
+                android:layout_width="@dimen/dp_0"
+                android:layout_weight="8"
+                android:layout_height="wrap_content"
+                android:text="可通过手机号搜索到我"
+                android:textColor="@color/black"
+                android:textSize="@dimen/dp_12"
+                android:layout_marginLeft="@dimen/dp_20"/>
+
+            <com.example.administrator.maintenanceapp.View.WiperSwitch
+                android:id="@+id/wiperSwitch4"
+                android:layout_width="@dimen/dp_40"
+                android:layout_marginTop="@dimen/dp_5"
+                android:layout_height="@dimen/dp_20"
+                />
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_0_5"
+            android:layout_marginLeft="@dimen/dp_20"
+            android:background="@color/gray"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_42"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:background="@color/white">
+            <LinearLayout
+                android:layout_width="@dimen/dp_0"
+                android:layout_weight="8"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="向我推荐通讯录朋友"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/dp_12"
+                    android:layout_marginLeft="@dimen/dp_20"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="开启后，为你推荐已经开通维保助手的联系人"
+                    android:textColor="@color/gray"
+                    android:textSize="@dimen/dp_9"
+                    android:layout_marginLeft="@dimen/dp_20"/>
+
+            </LinearLayout>
+
+            <com.example.administrator.maintenanceapp.View.WiperSwitch
+                android:id="@+id/wiperSwitch5"
+                android:layout_width="@dimen/dp_40"
+                android:layout_marginTop="@dimen/dp_5"
+                android:layout_gravity="top"
+                android:layout_height="@dimen/dp_20"
+                />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_10"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_42"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:background="@color/white">
+            <LinearLayout
+                android:layout_width="@dimen/dp_0"
+                android:layout_weight="8"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="通过维保助手账号搜索到我"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/dp_12"
+                    android:layout_marginLeft="@dimen/dp_20"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="关闭后，其它用户将不能通过维保助手号搜索到你"
+                    android:textColor="@color/gray"
+                    android:textSize="@dimen/dp_9"
+                    android:layout_marginLeft="@dimen/dp_20"/>
+
+            </LinearLayout>
+
+            <com.example.administrator.maintenanceapp.View.WiperSwitch
+                android:id="@+id/wiperSwitch6"
+                android:layout_width="@dimen/dp_40"
+                android:layout_marginTop="@dimen/dp_5"
+                android:layout_height="@dimen/dp_20"
+                android:layout_gravity="top"
+                />
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">MaintenanceApp</string>
+
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+
+    <string name="tab_menu_alert">首页</string>
+    <string name="tab_menu_profile">信息</string>
+    <string name="tab_menu_pay">圈子</string>
+    <string name="tab_menu_setting">我的</string>
+
+    <string-array name="rearch">
+        <item>e1</item>
+        <item>e2</item>
+        <item>e3</item>
+        <item>e4</item>
+        <item>e5</item>
+        <item>e6</item>
+        <item>e7</item>
+        <item>e8</item>
+        <item>e9</item>
+        <item>e10</item>
+    </string-array>
+</resources>

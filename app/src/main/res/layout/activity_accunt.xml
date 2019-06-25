@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.administrator.maintenanceapp.Activity.accuntActivity"
+    android:orientation="vertical"
+    android:background="@color/lightgray">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_35"
+        android:background="@color/white">
+
+        <ImageView
+            android:id="@+id/back5"
+            android:layout_width="@dimen/dp_20"
+            android:layout_height="@dimen/dp_20"
+            android:layout_alignParentLeft="true"
+            android:src="@mipmap/back1"
+            android:layout_marginLeft="@dimen/dp_5"
+            android:layout_marginTop="@dimen/dp_5"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:padding="@dimen/dp_5"
+            android:text="账号与安全"
+            android:textSize="@dimen/sp_14" />
+
+    </RelativeLayout>
+    <LinearLayout
+        android:id="@+id/account_head"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_40"
+        android:layout_marginTop="@dimen/dp_10"
+        android:orientation="horizontal"
+        android:background="@color/white">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="7"
+            android:layout_height="@dimen/dp_30"
+            android:layout_marginLeft="@dimen/dp_20"
+            android:gravity="center_vertical"
+            android:text="头像"
+            android:textSize="@dimen/sp_12"
+            android:src="@mipmap/ic_launcher_round"/>
+
+        <ImageView
+            android:id="@+id/account_headimg"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="@dimen/dp_30"
+            android:layout_gravity="center"
+            android:src="@mipmap/ic_launcher_round"/>
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="@dimen/dp_30"
+            android:layout_gravity="center"
+            android:src="@mipmap/next"/>
+    </LinearLayout>
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/dp_0_5"
+        android:layout_marginLeft="@dimen/dp_20"
+        android:background="@color/gray"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/white">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="@dimen/dp_35"
+                android:text="姓名"
+                android:textSize="@dimen/sp_12"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="@dimen/dp_20" />
+            <TextView
+                android:id="@+id/account_name"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="@dimen/dp_35"
+                android:text="姓名"
+                android:textSize="@dimen/sp_12"
+                android:gravity="right|center_vertical"
+                android:layout_marginRight="@dimen/dp_15"
+                android:layout_marginLeft="@dimen/dp_20" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dp_0_5"
+            android:layout_marginLeft="@dimen/dp_20"
+            android:background="@color/gray"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="@dimen/dp_40"
+                android:text="账号"
+                android:textSize="@dimen/sp_12"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="@dimen/dp_20" />
+            <TextView
+                android:id="@+id/account_account"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="@dimen/dp_40"
+                android:text="12345677890"
+                android:textSize="@dimen/sp_12"
+                android:gravity="right|center_vertical"
+                android:layout_marginRight="@dimen/dp_15"
+                android:layout_marginLeft="@dimen/dp_20" />
+        </LinearLayout>
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dp_10"
+            android:background="@color/lightgray"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="@dimen/dp_40"
+                android:text="手机号"
+                android:textSize="@dimen/sp_12"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="@dimen/dp_20" />
+            <TextView
+                android:id="@+id/account_phone"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="@dimen/dp_40"
+                android:text="1111111345"
+                android:textSize="@dimen/sp_12"
+                android:gravity="right|center_vertical"
+                android:layout_marginRight="@dimen/dp_15"
+                android:layout_marginLeft="@dimen/dp_20" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dp_0_5"
+            android:layout_marginLeft="@dimen/dp_20"
+            android:background="@color/gray"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="@dimen/dp_40"
+                android:text="邮箱"
+                android:textSize="@dimen/sp_12"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="@dimen/dp_20" />
+            <TextView
+                android:id="@+id/account_email"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="@dimen/dp_40"
+                android:textSize="@dimen/sp_12"
+                android:text="15332234343@qq.com"
+                android:gravity="right|center_vertical"
+                android:layout_marginRight="@dimen/dp_15"
+                android:layout_marginLeft="@dimen/dp_20" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
